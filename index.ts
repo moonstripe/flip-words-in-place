@@ -24,9 +24,17 @@ function reverseInPlaceAroundSpaces(sentenceArr: string[]): void {
 
   reverseInPlace(sentenceArr, 0, sentenceArr.length);
 }
+console.log("even number of letters");
+const even_sentence = "just_in_case".split("");
+console.log(even_sentence.join(""));
+reverseInPlaceAroundSpaces(even_sentence);
 
-const sentence = "just_in_case".split("");
-reverseInPlaceAroundSpaces(sentence);
+console.log(" =>", even_sentence.join(""));
 
-console.log(sentence.join(""));
+console.log("odd number of letters");
+const odd_sentence = "just_in_the_scenario_my_dog_comes".split("");
+console.log(odd_sentence.join(""));
+reverseInPlaceAroundSpaces(odd_sentence);
+
+console.log(" => ", odd_sentence.join(""));
 
