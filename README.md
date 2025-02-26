@@ -1,15 +1,21 @@
 # flip_words_in_place
 
-To install dependencies:
+This is [Kojin Glick's](https://kojinglick.com) solution to flipping words in place.
+
+To run (Node):
 
 ```bash
-bun install
+node index.js
 ```
 
-To run:
+To run (Bun):
 
 ```bash
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.2.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+This project was created using `bun init` in bun v1.2.0.
+
+```
+
+```
